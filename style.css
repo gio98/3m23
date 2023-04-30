@@ -460,3 +460,42 @@ div#sea {
     right: 230px;
   }
 }
+
+@media all and (orientation:portrait) {
+  /* Style adjustments for portrait mode goes here */
+  body {
+    background: red;
+  }
+  .merrywrap {
+    position: fixed;
+    right: 0px;
+    left: -4px;
+    bottom: 4px;
+    top: 0px;
+    background-color: #d44;
+    transition: background-color 0.5s ease;
+    background-image: url(pe.png);
+    background-repeat: inherit;
+    background-size: 984px;
+    width: 989px;
+}
+.mobile1{
+  
+  font-size: 38px !important;
+  transform: rotate(20deg) !important;
+  position: relative;
+  top: 117px;
+  left: -40px;
+  /* text-align: center; */
+  /* position: absolute; */
+}
+div#beach {
+  background-image: url(huanchaco.jpg);
+  background-size: cover !important; 
+  background-position: bottom right;
+
+  background-repeat: no-repeat;
+}
+
+  }
+  
