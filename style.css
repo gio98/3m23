@@ -496,6 +496,10 @@ div#beach {
 
   background-repeat: no-repeat;
 }
-
+div#video {
+    position: absolute;
+    right: 332px;
+    bottom: 154px;
+}
   }
   
